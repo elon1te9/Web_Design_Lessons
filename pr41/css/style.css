@@ -1,0 +1,87 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* убираем все системные отступы на странице */
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+.p1{
+    text-align: center;
+    font-style: italic;
+}
+
+ul{
+    list-style:square;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h2 span{
+    font-style: italic;
+    text-transform: uppercase; /* капс */
+}
+
+img{
+    width: 20%;
+}
+
+h1,p{
+    color: aqua;
+}
+
+.block{
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: 0 auto;
+    /* размещение обьекта посередине */
+}
+
+.item{
+    width: 50px;
+    height: 50px;
+    background: blue;
+}
+
+.flag1{
+    width: 500px;
+    height: 300px;
+    background: red;
+    border: 5px solid black;
+    margin: 0 auto;
+}
+.flag2{
+    width: 500px;
+    height: 200px;
+    background: blue;
+}
+.flag3{
+    width: 500px;
+    height: 100px;
+    background:white;
+}
+.flag4{
+    width: 500px;
+    height: 300px;
+    background: red;
+    margin: 0 auto;    
+    border: 5px solid black;
+
+}
+.flag5{
+    width: 500px;
+    height: 160px;
+    background: white;
+}
+.flag6{
+    width: 500px;
+    height: 140px;
+    background: green;
+}

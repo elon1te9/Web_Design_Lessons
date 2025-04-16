@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+}
+.slider{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+
+}
+.slides{
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+.slide img {
+    width: 1200px;
+    height: 600px;
+    border-radius: 30px;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+}
+
+nav{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    display: flex;
+    gap: 10px;
+    transform: translateX(-50%);
+}
+
+nav label{
+    width: 40px;
+    height: 15px;
+    background: #ddd;
+    border-radius: 10px;
+    opacity: 0.5;
+    /* прозрачность */
+    cursor: pointer;
+    /* при наведении появляется палец */
+}
+
+nav label:hover{
+    opacity: 1;
+}
+
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+#r2:checked ~ .s1{
+    margin-left: -25%;
+}
+#r3:checked ~ .s1{
+    margin-left: -50%;
+}
+#r4:checked ~ .s1{
+    margin-left: -75%;
+}

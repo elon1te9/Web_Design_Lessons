@@ -1,0 +1,64 @@
+h1 {
+    color: rgb(19, 55, 218);
+}
+
+h1:hover{
+    color:red;
+}
+/* класс работает при наведении */
+
+p{
+    color: rgb(235, 4, 220);
+
+    width: 1000px;
+    /* ширина текста */
+
+    background: brown;
+    /* закрашивает фон */
+
+    font-weight: 900;
+    /* жирность шрифта */
+
+    font-style: italic;
+    /* курсив */
+
+    font-family: Arial, Helvetica, sans-serif;
+    /* шрифт */
+
+    font-size: 30px;
+    /* размер текста в пикселях(если написать px) */
+
+    text-align: center;
+    /* выравнивание текста */
+
+    text-decoration:line-through;
+    /* разные типы подчеркивания */
+
+    text-transform: uppercase;
+    /* переделываем весь текста в верхний регистр */
+
+    line-height: 1.5;
+    /* межстрочный интервал */
+}
+/* если мы сами создали класс, то к нему обращаемся через точку */
+
+.text{
+    color: blue;
+}
+/* margin внешний отступ
+padding внутренний отступ */
+/* margin: вверх справа снизу слева; */
+/* margin: вверхниз слевасправа; */
+/* margin: вездеодинаковый; */
+.block{
+    width: 100px;
+    height: 100px;
+    background: green;
+
+    margin-left: 100px;
+    margin: 100px 0 0 100;
+    /* margin-сдвиг самого дива */
+
+    padding: 49px;
+    /* padding-сдвиг текста внутри дива */
+}

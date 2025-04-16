@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Расторопша</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="fon">
+        <header class="container">
+            <img src="image/logo.png" alt="Волжанка">
+            <nav>
+                <a href="#">Главная</a>
+                <a href="#">Продукты</a>
+                <a href="#">Новости</a>
+                <a href="#">Партнеры</a>
+                <a href="#">Контакты</a>
+            </nav>
+        </header>
+
+        <main class="container">
+            <div class="main-text">
+                <h1><span>Расторопшу</span><br>пьем всегда!</h1>
+                <p>Далеко-далеко за словесными, горами в стране гласных и согласных живут рыбные тексты. Имеет повстречался реторический вскоре, родного пустился маленькая за путь алфавит.</p>
+                <br>
+                <a href="#">Посмотреть подробнее</a>
+            </div>
+            <img src="image/img02.png" alt="Тайга" class="img1">
+        </main>
+
+        <div class="mini-img container">
+            <img src="image/img01.png" alt="" onclick="imgSlider('image/img01.png'); fontColor('#681a74')">
+            <img src="image/img02.png" alt="" onclick="imgSlider('image/img02.png'); fontColor('#111576')">
+            <img src="image/img03.png" alt="" onclick="imgSlider('image/img03.png'); fontColor('#77071f')">
+        </div>
+        
+    </section>
+
+    <script type="text/javascript">
+        function imgSlider(name){
+            document.querySelector('.img1').src = name;
+        }
+
+        function fontColor(color){
+            const f = document.querySelector('.fon');
+            f.style.background = color;
+        }
+    </script>
+</body>
+</html>

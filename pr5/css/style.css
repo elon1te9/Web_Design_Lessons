@@ -1,0 +1,46 @@
+.flex{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+
+    display: flex;
+    /* начало позиционированния флексбокс */
+    /* все выстроилось по горизонтали */
+
+    flex-direction: row;
+    /* дополнительная команда чтобы главная ось поменялась на вертикальную(если написаь column)*/
+
+    justify-content: space-between;
+    /* крайние выравниваются по краям, а остальные между ними с одинаоквым отступом */
+
+    align-items: center;
+    /* выравнивание по оси y */
+
+    flex-wrap: wrap;
+    /* при нехватке места объекты переносятся на новую строку */
+
+    /* flex-flow: column wrap;
+    элементы идут по столбцам и при нехватке места объекты переносятся на новую строку */
+}
+
+.block1{
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+.block2{
+    width: 50px;
+    height: 50px;
+    background: rgb(30, 255, 0);
+}
+.block3{
+    width: 50px;
+    height: 50px;
+    background: rgb(0, 0, 255);
+}
+.block4{
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 0, 238);
+}
