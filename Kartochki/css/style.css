@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(37, 4, 68);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.block-tovar{
+    width: 100%;
+    background: #cdc7ff;
+    padding: 80px 0;
+    text-align: center;
+}
+.tovar-items h2{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.tovar-items p{
+    padding: 20px 0;
+}
+.tovars{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tovar{
+    background-color: rgb(231, 170, 244);
+    border: 4px solid rgb(12, 11, 94);
+    border-radius: 15px;
+    width: 300px;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 5px 5px 5px 5px hsla(232, 100%, 73%, 0.611);
+    margin: 20px 20px;
+}
+
+.tovar img{
+    width: 200px;
+}
+
+.tovar p{
+    width: 250px;
+}
+
+.tovar a{
+    border: 1px solid rgb(37, 4, 68);
+    background: rgb(37, 4, 68);
+    display: block;
+    padding: 15px 70px;
+    border-radius: 15px;
+    color: rgb(231, 170, 244);
+}
+.tovar a:hover{
+    background:rgb(231, 170, 244) ;
+    color:rgb(37, 4, 68) ;
+}
