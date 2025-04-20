@@ -65,6 +65,9 @@ main p{
     padding: 40px 0;
     text-align: center;
 }
+.tovar-items{
+    padding-bottom: 260px;
+}
 
 .tovar-items h2{
     font-weight: 900;
@@ -122,4 +125,65 @@ main p{
 .tovar a:hover{
     background:white;
     color:#2b2f4a ;
+}
+
+footer{
+    width: 100%;
+    background: url(../image/footer-bg.jpg) center;
+    height: 250px;
+
+    align-content: center;
+    position:fixed;
+    bottom: 0;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.links .rectangle1{
+    width: 190px;
+    height: 40px;
+    background: white;
+    border-radius: 8px;
+}
+
+.links a{
+    padding: 8px 5px;
+    border-radius: 8px;
+    font-weight: 900;
+    color: #2b2f4a;
+    background: white;
+}
+
+.left-block p{
+    color: white;
+    font-size: 18px;
+}
+.logo-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-image img{
+    width: 70px;
 }
